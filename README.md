@@ -22,8 +22,7 @@ Projet réalisé en équipe, en méthode Scrum, dans le cadre du **BTS SIO optio
 |---|---|---|
 | _Sébastien Esparza_ | _kito2020_ |_S1_ |
 | _Rayane Youcef_ | _youcefrayane04_ | _S2_ |
-
-
+| _Adam Ksoulene_ | _AdamKsoulene_ | _S3_ |
 ---
 
 ## Ce que fait le site aujourd'hui
