@@ -42,7 +42,9 @@ public class ProduitRepository
         //   Consigne : renvoyer les produits ACTIFS, triés par catégorie puis par libellé.
         //   Indice   : même principe que GetSauces() juste au-dessus. Les noms des
         //              colonnes de la table « produit » sont dans sql/01-schema.sql.
-        return new List<Produit>();
+        using var connexion = _bdd.CreerConnexion();
+        string sql = "SELECT * FROM produit WHERE actif = 1 ORDER BY categorie, libelle";
+        return connexion.Query<Produit>(sql).ToList();
     }
 
     public Produit GetParId(int id)

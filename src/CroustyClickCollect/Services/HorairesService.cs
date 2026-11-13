@@ -19,6 +19,9 @@ public static class HorairesService
         //              et la fermeture (exclue), false sinon.
         //   Indice   : deux TimeSpan se comparent avec <, <=, >, >= comme des nombres.
         //              Les tests de tests/.../HorairesServiceTests.cs vous diront si c'est juste.
-        return false;
+        
+        return heure >= ouverture && heure < fermeture;
+        
+        //return false;
     }
 }

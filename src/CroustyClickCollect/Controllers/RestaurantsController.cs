@@ -26,7 +26,12 @@ public class RestaurantsController : Controller
         //   Consigne : pour chaque restaurant de la liste, remplir la propriété
         //              EstOuvertMaintenant grâce à HorairesService.EstOuvert(...).
         //   Indice   : une boucle foreach ; l'heure actuelle s'obtient avec DateTime.Now.TimeOfDay.
+    TimeSpan heureActuelle = DateTime.Now.TimeOfDay;
 
+    foreach (Restaurant restaurant in restaurants)
+    {
+        restaurant.EstOuvertMaintenant = HorairesService.EstOuvert(restaurant.HeureOuverture, restaurant.HeureFermeture, heureActuelle);
+    }
         return View(restaurants);
     }
 }
