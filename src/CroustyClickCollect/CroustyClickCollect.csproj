@@ -11,7 +11,7 @@
   <!-- Les deux seules bibliothèques ajoutées au projet. -->
   <ItemGroup>
     <!-- MySqlConnector : permet au code C# de se connecter à MySQL / MariaDB. -->
-    <PackageReference Include="MySqlConnector" Version="2.6.2" />
+    <PackageReference Include="MySqlConnector" Version="3.0.0" />
     <!-- Dapper : transforme chaque ligne d'un résultat SQL en objet C#. -->
     <PackageReference Include="Dapper" Version="2.1.89" />
   </ItemGroup>
