@@ -15,6 +15,7 @@ Projet réalisé en équipe, en méthode Scrum, dans le cadre du **BTS SIO optio
 |---|---|---|
 | Mayas Debahi | mayasdebahi-png | Sprint 1 |
 | Zhang Jiamo | zhangjiamo | Sprint 2 |
+| Youssouf Gueye | YoussoufGueye | Sprint 3 |
 
 ---
 
