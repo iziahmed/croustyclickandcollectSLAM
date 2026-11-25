@@ -9,7 +9,10 @@ Projet réalisé en équipe, en méthode Scrum, dans le cadre du **BTS SIO optio
 ---
 
 ## L'équipe
+---
+Bienvenue sur la Plateforme de commande en ligne pour l'enseigne de Tasty Crousty : le client a la possibilité de pourvoir de sélectionner le restaurant, un panier dynamique en fonction de l'envie du client ensuite avoir la possibilité d'avoir le choix de l'horaire de retrait ainsi d'une interface de suivi des commandes en temps réel.
 
+Projet collaboratif mené en méthode Agile/Scrum dans le cadre du BTS SIO option SLAM.
 <!--
   TODO S1-01 (sprint 1) : présenter votre équipe.
     Consigne : remplacer la ligne « À compléter » par une ligne par membre, et indiquer
@@ -20,7 +23,12 @@ Projet réalisé en équipe, en méthode Scrum, dans le cadre du **BTS SIO optio
 
 | Prénom Nom | Pseudo GitHub | Scrum Master au sprint |
 |---|---|---|
-| _À compléter_ | _À compléter_ | _À compléter_ |
+| _Alidis IDI ISSILAMOU_ | _alidisidi_ | _Alidis S1-01_ |
+| _Content_ | _contentehigiator_ | _content S1-02_ |
+| _Alidis IDI ISSILAMOU_ | _alidisidi_ | _Alidis S1-03_ |
+| _Alidis IDI ISSILAMOU_ | _alidisidi_ | _Alidis S1-04_ |
+| _théo soler_ | _theoslr_ | _theo S1-05_ |
+
 
 ---
 
