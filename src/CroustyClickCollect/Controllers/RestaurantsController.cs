@@ -1,4 +1,3 @@
-cat << 'EOF' > src/CroustyClickCollect/Controllers/RestaurantsController.cs
 using CroustyClickCollect.Data;
 using CroustyClickCollect.Models;
 using CroustyClickCollect.Services;
@@ -37,4 +36,3 @@ public class RestaurantsController : Controller
         return View(restaurants);
     }
 }
-EOF
